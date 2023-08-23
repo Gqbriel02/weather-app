@@ -47,7 +47,7 @@ exports.getBookmarkByTitle = async (req, res) => {
     });
 
     if (!bookmark) {
-      return res.json({ error: 'Bookmark not found' });
+      return res.status(404).json({ error: 'Bookmark not found' });
     }
 
     res.json(bookmark);
