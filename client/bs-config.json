@@ -1,0 +1,7 @@
+{
+    "server": {
+      "baseDir": "./dist/client",
+      "port": 3000
+    }
+  }
+  
